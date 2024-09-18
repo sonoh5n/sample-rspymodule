@@ -1,5 +1,5 @@
 [project]
-name = "sample-rspymodule"
+name = "sample_rspymodule"
 version = "0.1.0"
 description = "Add your description here"
 authors = [{ name = "Sonokawa Hayato", email = "SONOKAWA.Hayato@nims.go.jp" }]
@@ -35,6 +35,6 @@ managed = true
 dev-dependencies = []
 
 [tool.maturin]
-python-source = "python"
+python-source = "src"
 module-name = "sample_rspymodule._lowlevel"
 features = ["pyo3/extension-module"]
